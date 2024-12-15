@@ -40,9 +40,10 @@
   }
   .search-input img { 
     position: absolute; 
-    left: 10px; 
+    left: 12px; 
+    top: 2px;
     width: 15px; 
-    height: 15px; 
+    height: 17px; 
   }
   .search-input input{
     background: #F5F5F6;
