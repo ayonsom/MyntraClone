@@ -34,7 +34,7 @@ const Men = () => {
   };
 
   return (
-    <div style={{border:'1px solid red', width:'130px'}}>
+    <div style={{ width:'130px'}}>
       <a style={{textDecoration:"none",color:'#ee5f73'}} href="https://www.myntra.com/men-topwear"><h4 style={{ marginLeft:'4px'}}>Topwear</h4></a>
       <ul style={{ listStyleType: "none", padding: '5px' }}>
         {Topwear.map((item, index) => (
