@@ -1,6 +1,16 @@
 import React from 'react';
 import './FooterHome.css';
 
+import google_play_button from '../components/footerImages/google_play_button.png'
+import app_store_button from "../components/footerImages/app_store_button.png"
+import facebook_icon from '../components/footerImages/facebook_icon.png'
+import twitter_icon from '../components/footerImages/twitter_icon.png'
+import youtube_icon from '../components/footerImages/youtube_icon.png'
+import instagram_icon from '../components/footerImages/instagram_icon.png'
+
+import icon_original from "../components/footerImages/icon-original.png"
+import Return_Window_image from "../components/footerImages/Return-Window-image.png"
+
 const FooterHome = () => {
   return (
     <footer className="footer">
@@ -49,29 +59,29 @@ const FooterHome = () => {
         <div className="app-buttons">
           <span >
             <a href="https://play.google.com/store/apps/details?id=com.myntra.android">
-              <img style={{height:'44px'}} src="src\components\footerImages\google_play_button.png" alt="Get it on Google Play" />
+              <img style={{height:'44px'}} src={google_play_button} alt="Get it on Google Play" />
             </a>
             <a href="https://itunes.apple.com/in/app/myntra-indias-fashion-store/id907394059">
-              <img  src="src\components\footerImages\app_store_button.png" alt="Download on the App Store" />
+              <img  src={app_store_button} alt="Download on the App Store" />
             </a>    
           </span>
         </div>
         <div className="social-media">
           <h4>KEEP IN TOUCH</h4>
-          <a href="https://www.facebook.com/myntra"><img src="src\components\footerImages\facebook_icon.png"></img></a>
-          <a href="https://twitter.com/myntra"><img src="src\components\footerImages\twitter_icon.png"></img></a>
-          <a href="https://www.youtube.com/user/myntradotcom"><img style={{width:'35px'}} src="src\components\footerImages\youtube_icon.png"></img></a>
-          <a href="https://www.instagram.com/myntra"><img src="src\components\footerImages\instagram_icon.png"></img></a>
+          <a href="https://www.facebook.com/myntra"><img src={facebook_icon}></img></a>
+          <a href="https://twitter.com/myntra"><img src={twitter_icon}></img></a>
+          <a href="https://www.youtube.com/user/myntradotcom"><img style={{width:'35px'}} src={youtube_icon}></img></a>
+          <a href="https://www.instagram.com/myntra"><img src={instagram_icon}></img></a>
           
         </div>
       </div>
       <div className="footer-section">
         <div className="guarantee">
-            <div><img src="src\components\footerImages\icon-original.png" alt="" /></div>
+            <div><img src={icon_original} alt="" /></div>
             <div><p><strong>100% ORIGINAL</strong> <span style={{color:'grey'}}>guarantee for all products at myntra.com</span></p></div>      
         </div>
         <div className="return-policy">
-            <div><img src="src\components\footerImages\Return-Window-image.png" alt="" /></div>
+            <div><img src={Return_Window_image} alt="" /></div>
             <div><p><strong>Return within 14 days</strong> <span style={{color:'grey'}}>of receiving your order</span></p></div>
           
         </div>
