@@ -1,10 +1,12 @@
 import React from 'react'
+import coupon500 from '../components/images/coupon500off.webp'
+
 
 export default function Home() {
   return (
     <div className='home-container'>
       <a href="https://myntra.com/online-fashion-store">
-        <img className='coupon-500' src="src\components\images\coupon500off.webp" alt="" />
+        <img className='coupon-500' src={coupon500} alt="" />
       </a>
       <a href="https://www.myntra.com/myntra-fashion-store">
         <img className='eoss-poster' src="src\components\images\eoss_poster.webp" alt="" />
