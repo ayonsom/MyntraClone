@@ -17,7 +17,10 @@
     display: flex; 
     align-items: center; 
     margin-right: 20px;
+    /* border: 2px solid red; */
   }
+  
+
   .myntra-logo{
     padding-left: 25px; 
   }
@@ -78,3 +81,33 @@
   }
   
   
+  .men-link {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    height: full;    
+  }
+ 
+  
+  .men-modal {
+    position: absolute;
+    top: 105%; /* Position below the parent */
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    z-index: 1000;
+    min-width: 800px; /* Set a suitable width for the modal */
+  }
+  
+  .men-modal:hover {
+    /* Optional: Keep the modal open when hovered over */
+    display: block;
+  }
+  .men-link:hover{     
+    border-bottom: 5px solid #ee5f73;
+  }
+  .women-link:hover{     
+    border-bottom: 5px solid rgb(36, 3, 155);
+  }
