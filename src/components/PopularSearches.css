@@ -1,0 +1,25 @@
+.popular-searches-heading{
+    display: flex;
+    flex-wrap: nowrap;
+    /* width: ; */
+    border: 1px solid red;
+}
+.popular-searches-heading div+div{
+    border: 1px solid blue;
+    width: 500px;
+    height: 1px;
+    display: flex;
+    /* align-items: center; */
+    justify-items: center;
+}
+.popular-searches-heading hr{
+    rotate: 90deg;   
+}
+.popular-searches-heading div{
+    display: inline;
+    /* width: 190px; */
+}
+.search-terms{
+    flex-wrap: wrap;
+    padding: 0 65px;
+}
