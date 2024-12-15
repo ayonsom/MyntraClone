@@ -2,10 +2,11 @@
     display: flex;
     flex-wrap: nowrap;
     /* width: ; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin-left:45px;
 }
 .popular-searches-heading div+div{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 500px;
     height: 1px;
     display: flex;
