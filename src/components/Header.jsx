@@ -1,6 +1,10 @@
 import React from 'react'
 import './Header.css'
 // import { Link } from 'react-router-dom'
+import search_icon from "../components/images/search_icon.png"
+import user_icon from "../components/images/user_icon.png"
+import wishlish_inactive from "../components/images/wishlish-inactive.png"
+import bag_empty from "../components/images/bag-empty.png"
 const Header = () => {
   return (
     <div className='header-container'>
@@ -17,21 +21,21 @@ const Header = () => {
       
       <div className='user-wish-bag' >
         <div className="search-input">
-          <img src="src\components\images\search_icon.png" alt="" />
+          <img src={search_icon} alt="" />
           <input           
             type="text" 
             placeholder='Search for products, brands & more' />
         </div>
           <div className="">
-            <div><img src="src\components\images\user_icon.png" alt="" /></div>
+            <div><img src={user_icon} alt="" /></div>
             <div>Profile</div>
           </div>
           <div className="">
-            <div><img src="src\components\images\wishlish-inactive.png" alt="" /></div>
+            <div><img src={wishlish_inactive} alt="" /></div>
             <div>Wishlist</div>
           </div>
           <div className="">
-            <div><img src="src\components\images\bag-empty.png" alt="" /></div>
+            <div><img src={bag_empty} alt="" /></div>
             <div>Bag</div>
           </div>
         </div>
